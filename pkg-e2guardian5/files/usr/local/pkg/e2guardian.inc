@@ -511,6 +511,7 @@ function sync_package_e2guardian($via_rpc = "no", $install_process = false) {
 	$logadblocks = (preg_match('/logadblocks/', $e2guardian_log['logging_options']) ? "on" : "off");
 	$anonymizelogs = (preg_match('/anonymizelogs/', $e2guardian_log['logging_options']) ? "on" : "off");
 	$logsslerrors = (preg_match('/logsslerrors/', $e2guardian_log['logging_options']) ? "on" : "off");
+	$logsyslog = (preg_match('/logsyslog/', $e2guardian_log['logging_options']) ? "on" : "off");
 	$loglevel = ($e2guardian_log['loglevel'] ? $e2guardian_log['loglevel'] : "2");
 	$logexceptionhits = ($e2guardian_log['logexceptionhits'] ? $e2guardian_log['logexceptionhits'] : "2");
 	$logfileformat = ($e2guardian_log['logfileformat'] ? $e2guardian_log['logfileformat'] : "1");
