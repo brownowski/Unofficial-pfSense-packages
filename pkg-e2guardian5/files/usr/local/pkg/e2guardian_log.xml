@@ -201,9 +201,10 @@
 				<option><name>logadblocks (off)</name><value>logadblocks</value></option>
 				<option><name>Anonymize logs (off)</name><value>anonymizelogs</value></option>
 				<option><name>logsslerrors (off)</name><value>logsslerrors</value></option>
+				<option><name>logsyslog (off)</name><value>logsyslog</value></option>
 			</options>
 			<multiple/>
-			<size>6</size>
+			<size>7</size>
 		</field>
 		<field>
 			<fielddescr>Log Level</fielddescr>
